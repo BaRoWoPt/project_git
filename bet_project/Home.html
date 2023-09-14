@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DTB</title>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="../bet_project/fonts/themify-icons/themify-icons.css" />
+  <link rel="stylesheet" href="Home.css" />
+</head>
+
+<body>
+  <div id="all">
+    <div id="menu">
+      <ul id="nav">
+        <li><a href="">Home</a></li>
+        <li><a href="">Product</a></li>
+        <li>
+          <a href="">about <i class="nav-down ti-angle-down"></i></a>
+          <ul class="subnav">
+            <li>
+              <a href="https://www.facebook.com/profile.php?id=100006533446399">Member1</a>
+            <li><a href="https://www.facebook.com/user.gbao">member2</a></li>
+        </li>
+        <li><a href="https://www.facebook.com/user.gbao">member3</a></li>
+      </ul>
+      </li>
+      </ul>
+      <div id="sign">
+        <button class="js-modalin sign-in header-separate" id="js-modalin">Sign In</button>
+        <button class="sign-up" id="sign-up">Sign Up </button>
+
+      </div>
+    </div>
+    <div class="img-slider" id="img">
+      <div id="img-items">
+        <div class="pic"><img src="./pic/4.avif" alt="" /></div>
+      </div>
+      <div id="img-items">
+        <div class="pic"><img src="./pic/5.avif" alt="" /></div>
+      </div>
+      <div id="img-items">
+        <div class="pic"><img src="./pic/6.avif" alt="" /></div>
+      </div>
+    </div>
+
+
+    <div id="footer">
+      <div class="socials">
+        <a href="https://www.facebook.com/user.gbao" class="link" style="--color :#3b5998">
+          <i class="link-icon ti-facebook"></i>
+          <span class="link-title">FaceBook</span>
+
+        </a>
+        <a href="https://www.instagram.com/oaboad_29" class="link" style="--color :#ff0100">
+          <i class=" link-icon ti-google"></i>
+          <span class="link-title">Google</span>
+        </a>
+        <a class="link" style="--color :#f8824f">
+          <i class="link-icon ti-mobile"></i>
+          <span class="link-title">0xxxxxxxxx</span>
+        </a>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="modal">
+    <div class="container" id="container">
+      <span id="wrap-close"><i id="container-close" class="container-close ti-close"></i></span>
+      <div class="form-container register-container" id="form-container">
+        <form>
+          <h1>Register here</h1>
+          <div class="form-control">
+            <input type="text" id="username" placeholder="Name" />
+            <small id="username-error"></small>
+            <span></span>
+          </div>
+          <div class="form-control">
+            <input type="email" id="email" placeholder="Email" />
+            <small id="email-error"></small>
+            <span></span>
+          </div>
+          <div class="form-control">
+            <input type="password" id="password" placeholder="Password" />
+            <small id="password-error"></small>
+            <span></span>
+          </div>
+          <button type="submit" value="submit">Register</button>
+          <span>Or use your account</span>
+          <div class="social-container">
+            <a href="#" class="social"><i class="fa-brands ti-facebook"></i></a>
+            <a href="#" class="social"><i class="fa-brands ti-google"></i></a>
+            <a href="#" class="social"><i class="fa-brands ti-youtube"></i></a>
+          </div>
+        </form>
+      </div>
+
+      <div class="form-container login-container">
+        <form class="form-lg">
+          <h1>Login here.</h1>
+          <div class="form-control2">
+            <input type="email" class="email-2" placeholder="Email" />
+            <small class="email-error-2"></small>
+            <span></span>
+          </div>
+          <div class="form-control2">
+            <input type="password" class="password-2" placeholder="Password" />
+            <small class="password-error-2"></small>
+            <span></span>
+          </div>
+
+          <div class="content">
+            <div class="checkbox">
+              <input type="checkbox" name="checkbox" id="checkbox" />
+              <label for="">Remember me</label>
+            </div>
+            <div class="pass-link">
+              <a href="#">Forgot password</a>
+            </div>
+          </div>
+          <button type="submit" value="submit">Login</button>
+          <span>Or use your account</span>
+          <div class="social-container">
+            <a href="#" class="social"><i class="fa-brands ti-facebook"></i></a>
+            <a href="#" class="social"><i class="fa-brands ti-google"></i></a>
+            <a href="#" class="social"><i class="fa-brands ti-youtube"></i></a>
+          </div>
+        </form>
+      </div>
+
+      <div class="overlay-container">
+        <div id="overlay">
+          <div class="overlay-panel overlay-left">
+            <h1 class="title">
+              Hello <br />
+              friends
+            </h1>
+            <p>If you have an account, login here and have fun</p>
+            <button class="ghost" id="login">
+              Login
+              <i class="fa-solid ti-arrow-right"></i>
+            </button>
+          </div>
+
+          <div class="overlay-panel overlay-right">
+            <h1 class="title">
+              Start your <br />
+              journey now
+            </h1>
+            <p>
+              If you don'n have an account yet, join us and start your journey
+            </p>
+            <button class="ghost" id="register">
+              Register
+              <i class="fa-solid ti-arrow-left"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"
+    integrity="sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="main.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="app.js"></script>
+
+</body>
+
+</html>

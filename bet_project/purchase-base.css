@@ -1,0 +1,12 @@
+:root {
+  --text-color: #333;
+}
+* {
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+  line-height: 2rem;
+  font-family: "roboto", sans-serif;
+  box-sizing: border-box;
+}
